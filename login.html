@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  width: 100%;
+  height: 100%;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#648880, #293f50);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#648880, #293f50);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#648880, #293f50);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#648880, #293f50);
+  /* Standard syntax (must be last) */
+  margin: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+    h1 {
+      text-align: center;
+
+      font-size: 4rem;
+      font-weight: 900;
+      letter-spacing: -2px;
+      margin: 10rem;
+      color: #444;
+
+    }
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    form {
+      
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.5);
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+      border-radius: 10px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>login page</h1>
+  <script>
+    document.getElementById("myForm").addEventListener("submit", function(event){
+    event.preventDefault();
+    // Your form processing code here
+    window.location.href = "http://192.168.1.3:8080/login.html";
+});
+  </script>
+  <form id="myForm" action='/login' method='post'>
+    <input type='text' name='username' placeholder='Username' autocomplete="off" />
+    <input type='password' name='password' placeholder='Password' autocomplete="off" />
+    <input type='submit' value='Login' onclick="location.reload()" />
+  </form>
+</body>
+</html>
+

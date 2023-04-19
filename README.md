@@ -14,7 +14,6 @@ run the webapp and navigate to the login page
 Step 2
 Experiment with the username input. it will print everything that you write without sanitization.
 
-https://github.com/SchrodingersNeko749/Xss-Keylogger-with-demo/blob/main/wsklogger2.png 
 
 ![experimenting with user input](https://github.com/SchrodingersNeko749/Xss-Keylogger-with-demo/blob/main/wsklogger2.png)
 

